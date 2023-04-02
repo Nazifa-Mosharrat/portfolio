@@ -1,0 +1,98 @@
+/* ======== problem ========== */
+/*** Vars ***/
+/*** Demo style ***/
+#info {
+	 margin: 0;
+	 padding: 3rem;
+	 text-align: center;
+	 font-size: 16px;
+	 font-family: 'Open Sans', sans-serif;
+	 color: #333;
+}
+#info h1 {
+	 position: relative;
+	 margin: 2rem 0 0;
+	 padding: 0 1rem 2rem;
+	 font-size: 3em;
+	 font-weight: normal;
+}
+#info h1::after {
+	 content: '';
+	 position: absolute;
+	 bottom: 0;
+	 left: 50%;
+	 margin-left: -2rem;
+	 width: 4rem;
+	 height: 2px;
+	 background: #666;
+}
+/*** Social style ***/
+ .wrap-social-icons {
+	 margin: 3rem 0;
+}
+ .cube {
+	 position: relative;
+	 display: inline-block;
+	 width: 3rem;
+	 height: 3rem;
+	 line-height: 3rem;
+	 margin: 1rem;
+	 color: #fff;
+	 text-align: center;
+	 font-family: 'Pacifico', cursive;
+	 font-weight: bold;
+	 font-size: 1em;
+	 overflow: hidden;
+	 transition: color 0.4s, background-color 0.4s;
+}
+ .cube::before {
+	 content: '';
+	 position: absolute;
+	 bottom: 0;
+	 left: 0;
+	 border: 3rem solid transparent;
+	 border-left-color: rgba(255, 255, 255, .1);
+}
+ .cube:hover {
+	 background: #fff;
+}
+ .cube:hover::before {
+	 border-left-color: transparent;
+}
+.git {
+	background: #232730;
+	box-shadow: inset 0 0 0 3px #383434;
+	font-size: larger;
+}
+.git:hover {
+	color: #232730;
+}
+ .fb {
+	 background: #3b5998;
+	 box-shadow: inset 0 0 0 3px #3b5998;
+}
+ .fb:hover {
+	 color: #3b5998;
+}
+ .gp {
+	 background: #be4131;
+	 box-shadow: inset 0 0 0 3px #be4131;
+}
+ .gp:hover {
+	 color: #be4131;
+}
+ .in {
+	 background: #006fa4;
+	 box-shadow: inset 0 0 0 3px #006fa4;
+}
+ .in:hover {
+	 color: #006fa4;
+}
+.hack {
+	 background: #25b556;
+	 box-shadow: inset 0 0 0 3px #21a54d;
+   
+}
+.hack:hover{
+	 color: #25b556;
+}

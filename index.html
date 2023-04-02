@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<meta name="author" content="Nazifa" />
+<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+
+
+<link rel="stylesheet" href="css/animate.css" type="text/css" />
+<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+<!-- ===================== -->
+<link rel="stylesheet" href="basicScripts/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<!-- customize css -->
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/about.css">
+<!-- volentieer css -->
+<link rel="stylesheet" href="css/volentierr.css">
+<link rel="stylesheet" href="css/bodyCss.css">
+<link rel="stylesheet" href="css/backToTop.css">
+<link rel="stylesheet" href="css/footer.css">
+	<title>Nazifa Mosharrat</title>
+	
+<style>
+	 *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+      width: 100%!important;
+    }
+    .slider{
+            background-image: url(b1.JPG);
+            /* background-size: cover; */
+            background-size: cover;
+            height: 100vh;
+            width: 100%!important;
+            background-repeat: no-repeat;
+            /* height: 1500px; */
+      /* width: 1500px;; */
+    }
+   
+    /* ============ problem ============= */
+   /* floating div on banner */
+.floating {   
+	animation-name: floating; 
+	animation-duration: 3s; 
+	animation-iteration-count: infinite; 
+	animation-timing-function: ease-in-out; 
+	margin-left: 30px; 
+  padding-top: 50px;
+  align-items: center;
+} 
+	
+@keyframes floating { 
+	0% { transform: translate(0,  0px); } 
+	50%  { transform: translate(0, 15px); } 
+	100%   { transform: translate(0, -0px); }     
+} 
+/* text desigh */
+
+ .containers {
+  display: flex;
+  align-items: center !important;
+  width: 100%;
+  height: 100%;
+} 
+.typewriter {
+  font-family: sans-serif;
+  color: #fff;
+  padding-left: 30px;
+  display: block;
+}
+.typewriter-text {
+  padding-right: 10px;
+  /* color: #ffe509;
+  border-right: solid #ffe509 7px; */
+  color: #097cff;
+  border-right: solid #097cff 7px;
+
+  text-transform: uppercase;
+  animation: cursor 1s ease-in-out infinite;
+  font-weight: bold;
+}
+@keyframes cursor {
+  /* from { border-color: #ffe509; } */
+  from { border-color: #097cff; }
+  to { border-color: transparent; }
+}
+
+@media (max-width: 767.98px) {
+  .typewriter { font-size: 35px; }
+}
+@media (min-width: 768px) {
+  .typewriter { font-size: 60px; }
+}
+/*  preloader  css*/
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(image/Preloader.gif) center no-repeat #fff;
+}
+
+</style>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+<script>
+
+	// preloader
+	$(window).load(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");;
+	});
+</script>
+
+</head>
+
+<body>
+	<!-- Paste this code after body tag -->
+	<div class="se-pre-con"></div>
+	<!-- Ends -->
+	
+	<div class="content">
+	<!-- Welcome Popups -->
+    <!-- navbar -->
+    <nav class="menu">
+        <ul class="active">
+           <li class="current-item"><a href="#">Home</a></li>
+            <li id="aboutcall"><a href="#aboutSkill">About</a></li>
+            <li><a href="#work">Experience</a></li>
+            <li><a href="#content">Projects</a></li>
+            <li><a href="#volunteering">volunteering</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    
+        <a class="toggle-nav" href="#" style="background-color:aliceblue">&#9776;</a>
+        <div class="search-form">
+          <!-- name or logo -->
+        <img src="image/logo.png" alt="Girl in a jacket" id="logo" >          
+        </div>
+        
+    </nav>
+     <!-- riple drop effect -->
+     <div class="slider">
+        <div style="padding-top: 50px;">
+          <div class="floating" style= 
+          "height: 150px; width: 100%; /*width:200px*/
+          /* background: rgb(200, 200, 200);  */
+          padding: 10px;margin-top: 200px;"> 
+          <div class='containers'>
+             <!-- <span style="font-size: 100px; color:white">Hi</span></br> -->
+            <p class='typewriter'>I'm  
+            <span class='typewriter-text' data-text='[ "Nazifa Mosharrat ", "a Full stack developer ","a Software Developer" ]'></span>
+            </p>
+          </div>
+        </div> 
+      </div>
+    </div>
+     <!-- 1.about which include education and skills-->
+     <div id="aboutSkill"  >     
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about-mf sect-pt4 route">      
+        <section class="profile_container">
+          <div class="profile_img_section">
+            <img class="profile_img-LG" src="image/profilep.jpg" />
+            <div class="flag_wrapper">
+              <img class="flag" src="image/falg.jpg" alt="Bangladesh Flag" />
+            </div>
+          </div>
+      
+          <div class="profile_desc_section">
+            <h2>Nazifa Mosharrat</h2>
+            <h3>Full Stack Developer</h3>
+            <p class="description">
+              Hi, I’m Nazifa. Nice to meet you.
+              Since beginning my journey as a programmer nearly 2 years ago
+               I'm quietly confident, naturally curious, and perpetually working on 
+                    improving my chops one design problem at a time.
+            </p>
+            <h2>Skills</h2>
+            <div class="interests">
+              <span class="interests_item">Springboot/Java</span>
+              <span class="interests_item">Asp .Net/C#</span>
+              <span class="interests_item">Js/Ajax/Angularjs</span>
+              <span class="interests_item">Html/Css</span>
+              <span class="interests_item">Mysql/Postgresql</span>
+              <span class="interests_item">Datascience/Python</span>
+              <span class="interests_item">MicrosoftSql</span>
+            </div>
+          </div>
+      
+        </section>
+      
+        <div class="info">
+        
+          <div class="wrap-social-icons">
+            <h1>Find me</h1>
+            <a href="https://github.com/Nazifa-Mosharrat"><div class="cube git"><i class="fa fa-github"></i></div></a>
+            <!-- <div class="cube fb">F</div> -->
+            <a href="mailto:najifa.khan14@gmail.com"><div class="cube gp">G+</div></a>
+            <a href="https://www.linkedin.com/in/nazifa-mosharrat-411948134"><div class="cube in">In</div></a>
+            <a href="https://www.hackerrank.com/Mosharrat14"><div class="cube hack">H</div></a>
+          </div>
+          
+        </div>
+      </section><!-- End About Section -->
+    </div>
+    <!-- 2.work Experience which include testimonials from coordinators-->
+    <div id="work">
+      <div style="z-index: 0;">
+        <div class="divHeader">
+          <h1 class="divHeaderText">Work Experience</h1> 
+        </div>        
+        <section class="timeline">
+          <ul>
+            <li>
+              <div>
+                <time>2021-Continue</time>
+                <div class="JobName">
+                  <h5>Jr. Software Engineers (Remote)</h5>
+                  <p>
+                  <!-- job Location-->
+                    Xceleran
+                  </p>
+                </div>
+                <div class="details">
+                  <h5>Technology</h5>
+                  <p>
+                    <!-- Technology -->
+                    <b>Banckend:</b> .Asp Net  </br>
+                    <b>Server:  </b>Microsoft sql</br> 
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div>
+                <time>2020-2021</time>
+                <div class="JobName">
+                  <h5>Jr. Programmer</h5>
+                  <p>
+                  <!-- job Location-->
+                    Neosysworld
+                  </p>
+                </div>
+                <div class="details">
+                  <h5>Technology</h5>
+                  <p>
+                    <!-- Technology -->
+                    <b>Banckend:</b> .Net Mvc </br>
+                    <b>Frontend:</b>AngularJs</br>
+                    <b>Server:  </b>Microsoft sql</br> 
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div>
+                <time>2019-2020</time>
+                <div class="JobName">
+                  <h5>Freelance Programmer</h5>
+                  <p>                
+                    Zeroosoft 
+                  </p>
+                </div>
+                <div class="details">
+                  <h5>Technology</h5>
+                  <p>
+                  
+                    <b>Banckend:</b>Java  Springboot </br>
+                    <b>Server:  </b>MySql </br> 
+                  </p>
+                </div>
+              </div>
+            </li>          
+            <li>
+              <div>
+                <time>2019-2020</time>
+                <div class="JobName">
+                  <h5>Jr. Programmer</h5>
+                  <p>
+                  <!-- job Location-->
+                    Chattogram Maa-O-Shishu Hospital
+                  </p>
+                </div>
+                <div class="details">
+                  <h5>Technology</h5>
+                  <p>
+                    <!-- Technology -->
+                    <b>Banckend:</b>Java  Springboot </br>
+                    <b>Server:  </b>MySql </br> 
+                  </p>
+                </div>
+              </div>
+            </li> 
+            <!-- <li>
+              <div>
+                <time>2019(Feb-Oct)</time>
+                <div class="JobName">
+                  <h5>Guest Instructor</h5>
+                  <p>
+               
+                    Chattogram Mohila Polytechnical Institute
+                  </p>
+                </div>
+                <div class="details">
+                  <h5>Class Taken</h5>
+                  <p>
+                  >
+                    <b>Programming:</b>Java</br>
+                    <b>Web:</b>Web design,Web Mastering</br>
+                    <b>Fundamental:  </b>Computer Fundamental </br> 
+                  </p>
+                </div>
+              </div>
+            </li>              -->
+          </ul>
+        </section>
+      </div>
+      
+    </div>
+    <!-- 3.Projects -->
+<section id="content">
+    <div class="content-wrap">
+      <div class="container clearfix">
+
+        <ul id="portfolio-filter" class="portfolio-filter clearfix" data-container="#portfolio">
+        <li class="activeFilter"><a href="#" data-filter="*">Show All</a></li>
+         <li><a href="#" data-filter=".pf-media">Software</a></li>
+
+        <!-- <li><a href="#" data-filter=".pf-icons">Asp .Net(Mvc)</a></li>
+        <li><a href="#" data-filter=".pf-illustrations">Asp .Net(Core)</a></li> -->
+        <li><a href="#" data-filter=".pf-uielements">Website</a></li>       
+        <!-- <li><a href="#" data-filter=".pf-graphics">Graphics</a></li> -->
+        </ul>
+        <div id="portfolio-shuffle" class="portfolio-shuffle" data-container="#portfolio">
+        <i class="fa fa-random"></i>
+        </div>
+        <div class="clear"></div>
+
+        <div id="portfolio" class="portfolio grid-container portfolio-3 portfolio-masonry portfolio-nomargin clearfix">
+           <!--1. Schdular -->           
+           <article class="portfolio-item pf-media">
+            <div class="portfolio-image">
+              <!-- <div class="fslider" data-arrows="false" data-speed="400" data-pause="400"> -->
+                <div class="fslider" data-arrows="false" data-speed="400">
+                  <div class="flexslider">
+                    <div class="slider-wrap">
+                      <div class="slide"><a href="index.html"><img src="image/Projects/Schdular1.png" alt="Schdular Service"></a></div>
+                      <div class="slide"><a href="index.html"><img src="image/Projects/Schdular2.png" alt="Schdular Service"></a></div>
+                    </div>
+                  </div>
+                </div>
+              <div class="portfolio-overlay" data-lightbox="gallery">
+                <div class="portfolio-desc">
+                  <h3><a href="portfolio-single.html">Scheduler</a></h3>
+                  <span><a href="#">Technology:</a> <a href="#">Asp .Net,Angularjs,MsSql</a></span>
+                  <span> Team Size - 2</span>
+                 
+                </div>
+                <a href="image/Projects/overlay/Schdular1.png" class="left-icon" data-lightbox="gallery-item"><i class="fa fa-bars"></i></a>
+                <a href="image/Projects/overlay/Schdular2.png" class="hidden" data-lightbox="gallery-item"></a>             
+                  <!-- <a href="portfolio-single-video.html" class="right-icon"><i class="fa fa-ellipsis-h"></i></a>  -->
+                     
+              </div>
+            </div>
+          </article>
+          <!--1. Schdular -->           
+          <article class="portfolio-item pf-media">
+            <div class="portfolio-image">
+              <!-- <div class="fslider" data-arrows="false" data-speed="400" data-pause="400"> -->
+                <div class="fslider" data-arrows="false" data-speed="400">
+                  <div class="flexslider">
+                    <div class="slider-wrap">
+                      <div class="slide"><a href="index.html"><img src="image/Projects/Payment1.png" alt="Payment Service"></a></div>
+                      <div class="slide"><a href="index.html"><img src="image/Projects/Payment2.png" alt="Payment Service"></a></div>
+                      <div class="slide"><a href="index.html"><img src="image/Projects/Payment3.png" alt="Payment Service"></a></div>
+                      
+                    </div>
+                  </div>
+                </div>
+              <div class="portfolio-overlay" data-lightbox="gallery">
+                <div class="portfolio-desc">
+                  <h3><a href="portfolio-single.html">Virtual Payment</a></h3>
+                  <span><a href="#">Technology:</a> <a href="#">Asp .Net,MsSql</a></span>
+                  <span> Team Size - 4</span>
+                 
+                </div>
+                <a href="image/Projects/overlay/Payment1.png" class="left-icon" data-lightbox="gallery-item"><i class="fa fa-bars"></i></a>
+                <a href="image/Projects/overlay/Payment2.png" class="hidden" data-lightbox="gallery-item"></a>             
+                <a href="image/Projects/overlay/Payment3.png" class="hidden" data-lightbox="gallery-item"></a>     
+                  <!-- <a href="portfolio-single-video.html" class="right-icon"><i class="fa fa-ellipsis-h"></i></a>  -->
+                     
+              </div>
+            </div>
+          </article>
+          <!--2. HR(2) -->       
+           <!--1. Schdular -->           
+           <article class="portfolio-item pf-media">
+            <div class="portfolio-image">
+              <!-- <div class="fslider" data-arrows="false" data-speed="400" data-pause="400"> -->
+                <div class="fslider" data-arrows="false" data-speed="400">
+                  <div class="flexslider">
+                    <div class="slider-wrap">
+                      <div class="slide"><a href="index.html"><img src="image/Projects/Pitch1.png" alt="Payment Service"></a></div>
+                      <div class="slide"><a href="index.html"><img src="image/Projects/Pitch2.png" alt="Payment Service"></a></div>
+                      <div class="slide"><a href="index.html"><img src="image/Projects/Pitch3.png" alt="Payment Service"></a></div>
+                      
+                    </div>
+                  </div>
+                </div>
+              <div class="portfolio-overlay" data-lightbox="gallery">
+                <div class="portfolio-desc">
+                  <h3><a href="portfolio-single.html">Pitch Deck Analysis</a></h3>
+                  <span><a href="#">Technology:</a> <a href="#">Asp .Net,MsSql</a></span>
+                  <span> Team Size - 1</span>
+                 
+                </div>
+                <a href="image/Projects/overlay/Pitch1.png" class="left-icon" data-lightbox="gallery-item"><i class="fa fa-bars"></i></a>
+                <a href="image/Projects/overlay/Pitch2.png" class="hidden" data-lightbox="gallery-item"></a>    
+                <a href="image/Projects/overlay/Pitch3.png" class="hidden" data-lightbox="gallery-item"></a>           
+                  <!-- <a href="portfolio-single-video.html" class="right-icon"><i class="fa fa-ellipsis-h"></i></a>  -->
+                     
+              </div>
+            </div>
+          </article>
+            <!--1. Curier Service(1) -->           
+           <article class="portfolio-item pf-media">
+              <div class="portfolio-image">
+                <!-- <div class="fslider" data-arrows="false" data-speed="400" data-pause="400"> -->
+                  <div class="fslider" data-arrows="false" data-speed="400">
+                    <div class="flexslider">
+                      <div class="slider-wrap">
+                        <div class="slide"><a href="index.html"><img src="image/Projects/curier1.png" alt="Curier Service"></a></div>
+                        <div class="slide"><a href="index.html"><img src="image/Projects/curier2.png" alt="Curier Service"></a></div>
+                      </div>
+                    </div>
+                  </div>
+                <div class="portfolio-overlay" data-lightbox="gallery">
+                  <div class="portfolio-desc">
+                    <h3><a href="portfolio-single.html">Curier Service</a></h3>
+                    <span><a href="#">Technology:</a> <a href="#">Asp .Net Mvc,Angularjs,MsSql</a></span>
+                    <span> Team Size - 1</span>
+                   
+                  </div>
+                  <a href="image/Projects/overlay/curier.png" class="left-icon" data-lightbox="gallery-item"><i class="fa fa-bars"></i></a>
+                  <a href="image/Projects/overlay/curier2.png" class="hidden" data-lightbox="gallery-item"></a>             
+                    <!-- <a href="portfolio-single-video.html" class="right-icon"><i class="fa fa-ellipsis-h"></i></a>  -->
+                       
+                </div>
+              </div>
+            </article>
+            <!--2. HR(2) -->         
+            <article class="portfolio-item  pf-media">
+              <div class="portfolio-image">
+                <div class="fslider" data-arrows="false" data-speed="400" data-pause="4000">
+                  <div class="flexslider">
+                    <div class="slider-wrap">
+                      <div class="slide"><a href="#"><img src="image/Projects/hr.jpg" alt="HR"></a></div>
+                      <div class="slide"><a href="#"><img src="image/Projects/hr2.jpg" alt="HR"></a></div>
+                      <div class="slide"><a href="#"><img src="image/Projects/hr3.jpg" alt="HR"></a></div>                    
+                    </div>
+                  </div>
+                  </div>
+                <div class="portfolio-overlay"  data-lightbox="gallery">
+                  <div class="portfolio-desc">
+                    <h3><a href="#">HR Management</a></h3>
+                  <span><a href="#">Technology:</a> <a href="#">Java(Springboot) ,Thymleaf ,Mysql</a></span>
+                  <span> Team Size - 2</span>
+                  </div>
+                 
+                    <a href="image/Projects/overlay/hr.png" class="left-icon" data-lightbox="gallery-item"><i class="fa fa-bars"></i></a>
+                    <a href="image/Projects/overlay/hr2.png" class="hidden" data-lightbox="gallery-item"></a>
+                    <a href="image/Projects/overlay/hr3.png" class="hidden" data-lightbox="gallery-item"></a>
+                    
+                </div>
+              </div>
+            </article>
+         
+            <!--3. zeroosoft website(1)  -->
+          <article class="portfolio-item pf-uielements">
+            <div class="portfolio-image">
+             
+              <div class="fslider" data-arrows="false" data-speed="400" data-pause="4000">
+                <div class="flexslider">
+                  <div class="slider-wrap">
+                    <div class="slide"><a href="#"><img src="image/Projects/zeroosoft.jpg" alt="zeroosoft website"></a></div>
+                    <div class="slide"><a href="#"><img src="image/Projects/zeroosoft1.jpg" alt="zeroosoft website"></a></div>                    
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-overlay" data-lightbox="gallery">
+                <div class="portfolio-desc">
+                  <h3><a href="portfolio-single-video.html">Zeroosoft Website</a></h3>                  
+                  <span> Team Size - 1</span>
+                  <span><a href="http://zeroosoft.com/"><b style="font-size: 18px;">See Live</b></a></span>
+                </div>
+              
+                <a href="image/Projects/overlay/zeroosoft.png" class="left-icon" data-lightbox="gallery-item"><i class="fa fa-bars"></i></a>
+                <a href="image/Projects/overlay/zeroosoft1.png" class="hidden" data-lightbox="gallery-item"></a>
+               
+              </div>
+            </div>
+          </article>
+           <!--4. Travel Agent(1) -->
+          <article class="portfolio-item pf-media">
+            <div class="portfolio-image">
+              <div class="fslider" data-arrows="false" data-speed="400" data-pause="4000">
+                <div class="flexslider">
+                  <div class="slider-wrap">
+                    <div class="slide"><a href="#"><img src="image/Projects/travel.jpg" alt="Travel Agent"></a></div>
+                    <div class="slide"><a href="#"><img src="image/Projects/travel2.jpg" alt="Travel Agent"></a></div>
+                    <div class="slide"><a href="#"><img src="image/Projects/travel3.jpg" alt="Travel Agent"></a></div>                    
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-overlay" data-lightbox="gallery">
+                <div class="portfolio-desc">
+                  <h3><a href="#">Travel Agent</a></h3>
+                  <span><a href="#">Technology:</a> <a href="#">Asp .Net Mvc,Angularjs</a></span>
+                  <span> Team Size - 1</span>
+                </div>
+                <a href="image/Projects/overlay/travel.png" class="left-icon" data-lightbox="gallery-item"><i class="fa fa-bars"></i></a>
+                <a href="image/Projects/overlay/travel2.png" class="hidden" data-lightbox="gallery-item"></a>
+                <a href="image/Projects/overlay/travel3.png" class="hidden" data-lightbox="gallery-item"></a>
+               
+              </div>
+            </div>
+          </article>
+            <!--5. Nsw Ticket (1)-->
+          <article class="portfolio-item pf-media">
+            <div class="portfolio-image">
+              
+              <div class="fslider" data-arrows="false" data-speed="400" data-pause="4000">
+                <div class="flexslider">
+                  <div class="slider-wrap">
+                    <div class="slide"><a href="portfolio-single-gallery.html"><img src="image/Projects/ticket1.jpg" alt="Morning Dew"></a></div>
+                    <div class="slide"><a href="portfolio-single-gallery.html"><img src="image/Projects/ticket2.jpg" alt="Morning Dew"></a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-overlay" data-lightbox="gallery">
+                <div class="portfolio-desc">
+                  <h3><a href="portfolio-single.html">NSW Ticket</a></h3>
+                  <span><a href="#">Technology:</a> <a href="#">Asp .Net Mvc,Angularjs</a></span>
+                  <span> Team Size - 1</span>
+                </div>
+                <a href="image/Projects/ticket1.jpg" class="left-icon" data-lightbox="gallery-item"><i class="fa fa-bars"></i></a>
+                <a href="image/Projects/ticket2.jpg" class="hidden" data-lightbox="gallery-item"></a>
+                
+              </div>
+            </div>
+          </article>
+          <!--6. PO Entry(1) -->
+          <article class="portfolio-item pf-media">
+            <div class="portfolio-image">
+              <div class="fslider" data-arrows="false">
+                <div class="flexslider">
+                  <div class="slider-wrap">
+                    <div class="slide"><a href="#"><img src="image/Projects/poEntry.jpg" alt="po entry"></a></div>
+                    <div class="slide"><a href="#"><img src="image/Projects/poEntry2.jpg" alt="po entry"></a></div>                   
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-overlay" data-lightbox="gallery">
+                <div class="portfolio-desc">
+                  <h3><a href="portfolio-single-gallery.html">PO Entry</a></h3>
+                  <span><a href="#">Technology:</a> <a href="#">Java(Springboot) ,Thymleaf ,Postgresql</a></span>
+                  <span> Team Size - 1</span>
+                </div>
+                  <a href="image/Projects/poEntry.jpg" class="left-icon" data-lightbox="gallery-item"><i class="fa fa-bars"></i></a>
+                  <a href="image/Projects/poEntry2.jpg" class="hidden" data-lightbox="gallery-item"></a>
+               
+              </div>
+            </div>
+          </article>
+            
+          <!--7. Online shopping(1)  -->
+          <article class="portfolio-item pf-uielements">
+            <div class="portfolio-image">
+              
+              <div class="fslider" data-arrows="false" data-speed="400" data-pause="4000">
+                <div class="flexslider">
+                  <div class="slider-wrap">
+                    <div class="slide"><a href=""><img src="image/Projects/onlineShop.jpg" alt="online Shop image"></a></div>
+                    <div class="slide"><a href=""><img src="image/Projects/onlineShop2.jpg" alt="online Shop image"></a></div>
+                    <div class="slide"><a href=""><img src="image/Projects/onlineShop3.jpg" alt="online Shop image"></a></div>
+                    <div class="slide"><a href=""><img src="image/Projects/onlineShop4.jpg" alt="online Shop image"></a></div>
+                    <div class="slide"><a href=""><img src="image/Projects/onlineShop5.jpg" alt="online Shop image"></a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-overlay" data-lightbox="gallery">
+                <div class="portfolio-desc">
+                  <h3><a href="#">Online shopping</a></h3>
+                  <span><a href="#">Technology:</a> <a href="#">Asp .Net Core,Razor,Ajax</a></span>
+                  <span> Team Size - 1</span>                 
+                </div>
+                <a href="image/Projects/overlay/onlineShop.png" class="left-icon" data-lightbox="gallery-item"><i class="fa fa-bars"></i></a>
+                <a href="image/Projects/overlay/onlineShop2.png" class="hidden" data-lightbox="gallery-item"></a>
+                <a href="image/Projects/overlay/onlineShop3.png" class="hidden" data-lightbox="gallery-item"></a>
+                <a href="image/Projects/overlay/onlineShop4.png" class="hidden" data-lightbox="gallery-item"></a>
+                <a href="image/Projects/overlay/onlineShop5.png" class="hidden" data-lightbox="gallery-item"></a>
+              </div>
+            </div>
+          </article>
+          <!--8. Corona Test(3) -->
+          <article class="portfolio-item pf-media">
+            <div class="portfolio-image">
+              <div class="fslider" data-arrows="false" data-speed="650" data-pause="3500" data-animation="fade">
+                <div class="flexslider">
+                  <div class="slider-wrap">
+                    <div class="slide"><a href="#"><img src="image/Projects/corona.jpg" alt="Pharmecy"></a></div>
+                    <div class="slide"><a href="#"><img src="image/Projects/corona2.jpg" alt="Pharmecy"></a></div>                    
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-overlay"  data-lightbox="gallery">
+                <div class="portfolio-desc">
+                  <h3><a href="portfolio-single.html">Corona Test</a></h3>
+                  <span><a href="#">Technology:</a> <a href="#">Java(Springboot) ,Thymleaf ,Mysql</a></span>
+                  <span> Team Size - 2</span>
+                </div>
+                <a href="image/Projects/overlay/corona.png" class="left-icon" data-lightbox="gallery-item"><i class="fa fa-bars"></i></a>
+                <a href="image/Projects/overlay/corona2.png" class="hidden" data-lightbox="gallery-item"></a>            
+              </div>
+            </div>
+          </article>
+   
+          <!--10. Cmosh Website(4)  -->
+          <article class="portfolio-item pf-uielements">
+            <div class="portfolio-image">
+              <div class="fslider" data-arrows="false" data-speed="650" data-pause="3500" data-animation="fade">
+                <div class="flexslider">
+                  <div class="slider-wrap">
+                    <div class="slide"><a href="#"><img src="image/Projects/cmosh.jpg" alt=" Cmosh Website"></a></div>
+                    <div class="slide"><a href="#"><img src="image/Projects/cmosh2.jpg" alt=" Cmosh Website"></a></div>
+                   
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-overlay" data-lightbox="gallery">
+                <div class="portfolio-desc">
+                  <h3><a href="portfolio-single.html">Cmosh Website</a></h3>
+                  <span> Team Size - 4</span>
+                  <span><a href="http://www.cmoshbd.org/"><b style="font-size: 18px;">See Live</b></a></span>
+                </div>
+                <a href="image/Projects/overlay/cmosh.png" class="left-icon" data-lightbox="gallery-item"><i class="fa fa-bars"></i></a>
+                <a href="image/Projects/overlay/cmosh2.png" class="hidden" data-lightbox="gallery-item"></a>
+                
+              </div>
+            </div>
+          </article>
+           <!--11. POS -->
+          <article class="portfolio-item pf-media">
+            <div class="portfolio-image">
+              <div class="fslider" data-arrows="false" data-speed="650" data-pause="3500" data-animation="fade">
+                <div class="flexslider">
+                  <div class="slider-wrap">
+                    <div class="slide"><a href="#"><img src="image/Projects/pos.jpg" alt="pos"></a></div>
+                    <div class="slide"><a href="#"><img src="image/Projects/pos2.jpg" alt="pos"></a></div>                   
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-overlay" data-lightbox="gallery">
+                <div class="portfolio-desc">
+                  <h3><a href="portfolio-single.html">Point Of Sale</a></h3>
+                  <span><a href="#">Technology:</a> <a href="#">Java(Springboot) ,Thymleaf ,Mysql</a></span>
+                  <span> Team Size - 1</span>
+                </div>
+                <a href="image/Projects/overlay/pos.png" class="left-icon" data-lightbox="gallery-item"><i class="fa fa-bars"></i></a>
+                <a href="image/Projects/overlay/pos2.png" class="hidden" data-lightbox="gallery-item"></a>                
+                
+              </div>
+            </div>
+          </article>
+          <!--12. Pharmecy(6)  -->
+          <article class="portfolio-item pf-media">
+            <div class="portfolio-image">
+              <div class="fslider" data-arrows="false" data-speed="650" data-pause="3500" data-animation="fade">
+                <div class="flexslider">
+                  <div class="slider-wrap">
+                    <div class="slide"><a href="#"><img src="image/Projects/pharmecy.jpg" alt="Pharmecy"></a></div>
+                    <div class="slide"><a href="#"><img src="image/Projects/pharmecy1.jpg" alt="Pharmecy"></a></div>
+                    <div class="slide"><a href="#"><img src="image/Projects/pharmecy2.jpg" alt="Pharmecy"></a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-overlay" data-lightbox="gallery">
+                <div class="portfolio-desc">
+                  <h3><a href="portfolio-single.html">Pharmecy Management</a></h3>
+                  <span><a href="#">Technology:</a> <a href="#">Java(Springboot) ,Thymleaf ,Mysql</a></span>
+                  <span> Team Size - 6</span>
+                </div>
+                <a href="image/Projects/overlay/pharmecy.png" class="left-icon" data-lightbox="gallery-item"><i class="fa fa-bars"></i></a>
+                <a href="image/Projects/overlay/pharmecy1.png" class="hidden" data-lightbox="gallery-item"></a>
+                <a href="image/Projects/overlay/pharmecy2.png" class="hidden" data-lightbox="gallery-item"></a>
+               
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+ <!-- 4.volunteering -->
+ 	<!-- ================================================================================ -->
+   <section class="wrapper-full tab-container effectTab-headers" id="volunteering">
+    <div class="wrapper tab-item">
+      <div class="custom-row">
+        <div class="wrapper" align="center">
+          <h1 class="ti title">volunteering</h1>
+        </div>
+        <div class="columns-12 tab columns-xs-12">
+          <div class="custom-row">
+            <div class="columns-4 columns-md-6 columns-xs-12 columns-sm-6 box-tab">
+              <div class="effect effect-four">
+                <img src="image/volentier/sitBostroBitoron.jpg" class="img-fluid">
+                <div class="tab-text">
+                  <h2>D Engineers Club</h2>
+                  <p>Cloth Distribution For Eid</p>
+                  <!-- <div class="icons-block"> <a href="#" class="social-icon-1"><i class="fa fa-facebook-official"></i></a> <a href="#" class="social-icon-2"><i class="fa fa-twitter-square"></i></a> <a href="#" class="social-icon-3"><i class="fa fa-youtube-square"></i></a> </div> -->
+                </div>
+              </div>
+            </div>
+            <div class="columns-4 columns-md-6 columns-xs-12 columns-sm-6 box-tab">
+              <div class="effect effect-four">
+                <img src="image/volentier/distributionTime.jpg" class="img-fluid">
+                <div class="tab-text">
+                  <h2>D Engineers Club</h2>
+                  <p>Cloth Distribution For Eid</p>
+                  <!-- <div class="icons-block"> <a href="#" class="social-icon-1"><i class="fa fa-facebook-official"></i></a> <a href="#" class="social-icon-2"><i class="fa fa-twitter-square"></i></a> <a href="#" class="social-icon-3"><i class="fa fa-youtube-square"></i></a> </div>
+                 -->
+                </div>
+              </div>
+            </div>
+            <div class="columns-4 columns-md-6 columns-xs-12 columns-sm-6 box-tab">
+              <div class="effect effect-four">
+                <img src="image/volentier/youthLeaderShipTour.jpg" class="img-fluid">
+                <div class="tab-text">
+                  <h2>D Engineers Club</h2>
+                  <p>Youth Leader Ship Tour in Marine Academy</p>
+                  <!-- <div class="icons-block"> <a href="#" class="social-icon-1"><i class="fa fa-facebook-official"></i></a> <a href="#" class="social-icon-2"><i class="fa fa-twitter-square"></i></a> <a href="#" class="social-icon-3"><i class="fa fa-youtube-square"></i></a> </div>
+                 -->
+                </div>
+              </div>
+            </div>
+            <div class="columns-4 columns-md-6 columns-xs-12 columns-sm-6 box-tab">
+              <div class="effect effect-four">
+                <img src="image/volentier/TeamWork.jpg" class="img-fluid">
+                <div class="tab-text">
+                  <h2>D Engineers Club</h2>
+                  <p>Planning Session For Team work</p>
+                  <!-- <div class="icons-block"> <a href="#" class="social-icon-1"><i class="fa fa-facebook-official"></i></a> <a href="#" class="social-icon-2"><i class="fa fa-twitter-square"></i></a> <a href="#" class="social-icon-3"><i class="fa fa-youtube-square"></i></a> </div>
+                 -->
+                </div>
+              </div>
+            </div>
+            <div class="columns-4 columns-md-6 columns-xs-12 columns-sm-6 box-tab">
+              <div class="effect effect-four">
+                <img src="image/volentier/areYouReadyTo.jpg" class="img-fluid">
+                <div class="tab-text">
+                  <h2>D Engineers Club</h2>
+                  <p>Seminar on Are you Ready To Get Hired? for Freash Graduate</p>
+                  <!-- <div class="icons-block"> <a href="#" class="social-icon-1"><i class="fa fa-facebook-official"></i></a> <a href="#" class="social-icon-2"><i class="fa fa-twitter-square"></i></a> <a href="#" class="social-icon-3"><i class="fa fa-youtube-square"></i></a> </div>
+                 -->
+                </div>
+              </div>
+            </div>
+            <div class="columns-4 columns-md-6 columns-xs-12 columns-sm-6 box-tab">
+              <div class="effect effect-four">
+                <img src="image/volentier/cabinateMeeting.jpg" class="img-fluid">
+                <div class="tab-text">
+                  <h2>D Engineers Club</h2>
+                  <p>Cabinate Meeting</p>
+                  <!-- <div class="icons-block"> <a href="#" class="social-icon-1"><i class="fa fa-facebook-official"></i></a> <a href="#" class="social-icon-2"><i class="fa fa-twitter-square"></i></a> <a href="#" class="social-icon-3"><i class="fa fa-youtube-square"></i></a> </div>
+                 -->
+                </div>
+              </div>
+            </div>
+            <div class="columns-4 columns-md-6 columns-xs-12 columns-sm-6 box-tab">
+              <div class="effect effect-four">
+                <img src="image/volentier/coperatingWithDGallary.jpg" class="img-fluid">
+                <div class="tab-text">
+                  <h2>D Engineers Club</h2>
+                  <p>collaboration With The Gallery</p>
+                  <!-- <div class="icons-block"> <a href="#" class="social-icon-1"><i class="fa fa-facebook-official"></i></a> <a href="#" class="social-icon-2"><i class="fa fa-twitter-square"></i></a> <a href="#" class="social-icon-3"><i class="fa fa-youtube-square"></i></a> </div>
+                 -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--  backToTop Button  -->
+  <a id="backToTop"></a>
+  
+  <!-- footer -->
+  <footer class="footer-section"  id="Contact">
+    <div class="container">
+        <!-- <div class="footer-cta pt-5 pb-5"> -->
+          <div class="footer-cta pt-5">
+            <div class="row">
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="cta-text">
+                            <h1 style="color:white; padding-bottom: 6%;">Contact</h1>  
+                            <span>Let's Talk Some Time</span>                         
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-phone"></i>
+                        <div class="cta-text">
+                            <h4>Call us</h4>
+                            <span>9876543210 0</span>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="far fa-envelope-open"></i>
+                        <div class="cta-text">
+                            <h4>Mail us</h4>
+                            <span>mail@info.com</span>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="footer-content pt-5 pb-5">
+            <div class="row">
+              <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                <div class="footer-widget">
+                    <div class="footer-widget-heading">
+                        <h3>On The Web</h3>
+                    </div>
+                    <a href="https://github.com/Nazifa-Mosharrat"><div class="cube git"><i class="fa fa-github"></i></div></a>
+            <!-- <div class="cube fb">F</div> -->
+                    <a href="mailto:najifa.khan14@gmail.com"><div class="cube gp">G+</div></a>
+                    <a href="https://www.linkedin.com/in/nazifa-mosharrat-411948134"><div class="cube in">In</div></a>
+                    <a href="https://www.hackerrank.com/Mosharrat14"><div class="cube hack">H</div></a>
+                   
+                </div>
+             </div>
+             <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+              <div class="footer-widget">
+                  <div class="footer-widget-heading">
+                      <h3>Address</h3>
+                  </div>
+                  <div class="footer-text mb-25">
+                      <p>Chattogram,Bangladesh</p>
+                      <p>Email:nazifa.mosharrat14@gmail.com</p>
+                  </div>
+                  
+              </div>
+          </div>
+
+                <div class="col-xl-4 col-lg-4 mb-50">
+                    <div class="footer-widget">
+                        <!-- <div class="footer-logo">
+                            <a href="index.html"><img src="image/logo.png" class="img-fluid" alt="logo"></a>
+                        </div>
+                        <div class="footer-text">
+                            <p>Thanks for visiting !!</p>
+                        </div> -->
+                        <div class="footer-social-icon">
+                            <span>Thanks for visiting !!</span>
+                            <!-- <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                            <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                            <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+    <div class="copyright-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 text-center text-lg-center">
+                    <div class="copyright-text">
+                        <p>Copyright &copy; 2021, All Right Reserved <a href="#">Nazifa</a></p>
+                    </div>
+                </div>
+                <!-- <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Terms</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Policy</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- ================================================================================ -->
+
+ <!-- =============================================================================== -->
+ <!-- 5.Contact -->
+
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/plugins.js"></script> 
+<script src="js/functions.js"></script> 
+  <!-- <script src="basicScripts/jquery.min.js"></script> -->
+  <script src="basicScripts/popper.min.js"></script>
+  <!-- <script src="basicScripts/bootstrap.min.js"></script> -->
+
+
+
+<!-- ===================== -->
+   <!-- scripts -->
+   <script src="js/jquery.ripples-min.js"></script>
+   <script src="js/main.js"></script>
+<script>
+   //text design for banner
+   $(document).ready(function() {
+     
+     typing( 0, $('.typewriter-text').data('text') );
+
+     function typing( index, text ) {
+       var textIndex = 1;
+
+       var tmp = setInterval(function() {
+         if ( textIndex < text[ index ].length + 1 ) {
+           $('.typewriter-text').text( text[ index ].substr( 0, textIndex ) );
+           textIndex++;
+         } else {
+           setTimeout(function() { deleting( index, text ) }, 2000);
+           clearInterval(tmp);
+         }
+
+       }, 150);
+
+     }
+
+     function deleting( index, text ) {
+
+       var textIndex = text[ index ].length;
+
+       var tmp = setInterval(function() {
+
+         if ( textIndex + 1 > 0 ) {
+           $('.typewriter-text').text( text[ index ].substr( 0, textIndex ) );
+           textIndex--;
+         } else {
+           index++;
+           if ( index == text.length ) { index = 0; }
+           typing( index, text );
+           clearInterval(tmp);
+         }
+
+       }, 150)
+
+     }
+
+   });
+
+</script>
+
+    <!-- time line animation for about div -->
+    <link rel="stylesheet" href="css/timelineAnimation.css">
+    <script src="js/timelineAnimation.js"></script>
+    <!-- video -->
+    <!-- <script src="js/videoLoader.js"></script> -->
+    <script src="js/smoothScroll.js"></script>
+    <script src="js/backToTop.js"></script>
+<!-- ===================== -->
+<script>
+  $("body").on("contextmenu",function(e){
+     return false;
+});
+   $("img").mousedown(function(e){
+     e.preventDefault()
+});
+
+</script> 
+
+</body>
+
+</html>
+</body>
+</html>
